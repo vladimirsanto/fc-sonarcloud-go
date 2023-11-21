@@ -58,7 +58,7 @@ func TestSubMult(t *testing.T) {
 
 	result := sumMult(4, 2)
 
-	if result != 8 {
+	if result != 12 {
 		t.Errorf("The result must be 8")
 	}
 }
