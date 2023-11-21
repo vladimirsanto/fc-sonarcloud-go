@@ -4,9 +4,6 @@ import "fmt"
 
 func main() {
 	fmt.Println(sum(10, 10))
-	fmt.Println(sub(10, 10))
-	fmt.Println(mult(10, 10))
-	fmt.Println(sumMult(10, 10))
 }
 
 func sum(a int, b int) int {
@@ -27,4 +24,12 @@ func times(a int, b int) int {
 
 func sumMult(a int, b int) int {
 	return a + b*a
+}
+
+func sumMult2(a int, b int) int {
+	return (a + b) * a
+}
+
+func subMult(a int, b int) int {
+	return (a - b) * a
 }
