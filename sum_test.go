@@ -20,14 +20,14 @@ func TestSub(t *testing.T) {
 	}
 }
 
-// func TestMult(t *testing.T) {
+func TestMult(t *testing.T) {
 
-// 	result := Mult(2, 3)
+	result := mult(2, 3)
 
-// 	if result != 12 {
-// 		t.Errorf("The result must be 12")
-// 	}
-// }
+	if result != 12 {
+		t.Errorf("The result must be 12")
+	}
+}
 
 func TestTimes(t *testing.T) {
 
