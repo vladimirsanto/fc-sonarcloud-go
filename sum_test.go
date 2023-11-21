@@ -46,3 +46,19 @@ func TestSumMult(t *testing.T) {
 		t.Errorf("The result must be 8")
 	}
 }
+func TestSumMult2(t *testing.T) {
+
+	result := sumMult2(2, 3)
+
+	if result != 10 {
+		t.Errorf("The result must be 10")
+	}
+}
+func TestSubMult(t *testing.T) {
+
+	result := sumMult(4, 2)
+
+	if result != 8 {
+		t.Errorf("The result must be 8")
+	}
+}
