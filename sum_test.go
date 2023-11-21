@@ -15,7 +15,7 @@ func TestSub(t *testing.T) {
 
 	result := sub(2, 3)
 
-	if result != 1 {
+	if result != -1 {
 		t.Errorf("The result must be 1")
 	}
 }
@@ -42,7 +42,7 @@ func TestSumMult(t *testing.T) {
 
 	result := sumMult(2, 3)
 
-	if result != 10 {
-		t.Errorf("The result must be 10")
+	if result != 8 {
+		t.Errorf("The result must be 8")
 	}
 }
